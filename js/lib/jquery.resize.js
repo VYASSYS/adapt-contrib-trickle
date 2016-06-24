@@ -54,7 +54,7 @@
   };
 
   function checkLoopExpired() {
-    if ((new Date()).getTime() - loopData.lastEvent > 500) {
+    if ((new Date()).getTime() - loopData.lastEvent > 1500) {
       stopLoop()
       return true;
     }
